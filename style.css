@@ -1,0 +1,94 @@
+
+        body {
+            background-color: black;
+        }
+    
+/* couleur des police */
+.paraghaphe h1 {
+color:#08fbba;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 40px;
+
+
+}
+.paraghaphe p{
+    color:#08fbba;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 70px;
+margin-right: 70px;
+}
+/* Icône du menu hamburger */
+.menu-icon{
+    color: #08fbba;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+/* slide bar  */
+
+/* Icône de fermeture (placée à gauche) */
+.close-icon{
+    font-size: 35px;
+    cursor: pointer;
+    color: #08fbba;
+    width: 200px;;
+    padding-left: 200px;
+
+}
+
+/* menu container */
+
+
+.slidebar { 
+    flex-grow: 1;
+    background-color: #08fbba;
+    width: 150px;
+    height: 400px;
+    left: -250px ;
+    align-items: flex-start;
+    transition: left 0.3s ease;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+
+   
+
+
+}
+
+/* Style des liens */
+
+.slidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.slidebar ul a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 10px;
+    
+}
+
+.slidebar  ul a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+
+}
+.menu-container.show {
+    left: 0;
+}
+
+
